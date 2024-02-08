@@ -1,0 +1,186 @@
+{
+  "Content": {
+    "Name": "proGit",
+    "ShortDescription": "kratoučká pro git",
+    "Description": "meh",
+    "Version": "1.0.0",
+    "Icon": null,
+    "TransferVersion": 3,
+    "TemplateVersion": 1,
+    "Created": "2024-02-08T09:18:34.5704831Z",
+    "Detachable": true,
+    "Viewable": true,
+    "RegenerateEndpointTokens": true,
+    "Changelog": "# 1.0.0\n - Initial version",
+    "Tasks": [
+      {
+        "Description": null,
+        "Type": 2,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "Text": "01-post - in.Text"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "5c95d67f-ee64-459d-94bd-243c1f0e1bb9",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 7518,
+                "Name": null,
+                "CopyID": "882cd896-6e9b-4e08-ad3c-a4e7b99c486b"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 4757,
+            "Name": "Step #1",
+            "CopyID": "2f53ea8e-8228-4fac-90fe-198a12e29169"
+          }
+        ],
+        "ID": 1473,
+        "Name": "01 - post - in",
+        "CopyID": "3a15ea1d-e75c-42b9-949c-f19a6802a4b9"
+      }
+    ],
+    "Connectors": [
+      {
+        "Name": "JS Mapper",
+        "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+        "Version": "3.2.3"
+      }
+    ],
+    "DataSchemas": [
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Text",
+            "CopyID": "e22db5f1-567e-42b8-a671-cd5c8bd2d118"
+          }
+        ],
+        "ID": 14,
+        "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+        "Version": "1.0.0",
+        "Name": "Text",
+        "CopyID": "b6eb6943-67de-47ee-966c-f2c28d848e32"
+      }
+    ],
+    "Agents": [],
+    "TaskGroups": [],
+    "EndpointGroups": [],
+    "Endpoints": [
+      {
+        "Slug": "01",
+        "AuthenticationType": 0,
+        "ReadToken": null,
+        "WriteToken": null,
+        "DeleteToken": null,
+        "IsDelete": false,
+        "AllowedFrom": null,
+        "MaxMessageSize": null,
+        "PostInputMapping": "{\"Text\":\"Text\"}",
+        "PostOutputMapping": "{\"Text\":\"01-post - in.Step #1.Text\"}",
+        "PostIsAsync": false,
+        "PostIsSystemResponse": true,
+        "PostIsSaveOutput": false,
+        "PostSaveInputDataCondition": 0,
+        "PostOutputType": 0,
+        "GetInputMapping": null,
+        "GetOutputMapping": null,
+        "GetIsSystemResponse": true,
+        "GetIsSaveOutput": false,
+        "GetSaveInputDataCondition": 0,
+        "GetOutputType": 0,
+        "EndpointDataDays": null,
+        "WaitTime": 60,
+        "EndpointGroupCopyID": null,
+        "PostInputTaskCopyID": "3a15ea1d-e75c-42b9-949c-f19a6802a4b9",
+        "PostInputSchema": {
+          "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+          "Version": "1.0.0"
+        },
+        "PostOutputSchema": {
+          "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+          "Version": "1.0.0"
+        },
+        "PostOutputStepCopyID": "2f53ea8e-8228-4fac-90fe-198a12e29169",
+        "GetInputTaskCopyID": null,
+        "GetInputSchema": null,
+        "GetOutputSchema": null,
+        "GetOutputStepCopyID": null,
+        "PostSecondaryTokens": [],
+        "GetSecondaryTokens": [],
+        "DeleteSecondaryTokens": [],
+        "GetFailMessage": null,
+        "PostFailMessage": null,
+        "ExtendedInfo": "{\"PostInputDataSearchStringPaths\":[\"$.testPOST\"],\"PostOutputDataSearchStringPaths\":[],\"GetInputDataSearchStringPaths\":[],\"GetOutputDataSearchStringPaths\":[]}",
+        "TemplateCopyID": null,
+        "ID": 350,
+        "Name": "01-post - in",
+        "CopyID": "0f46b456-f6d6-4eaa-ae3d-d2faafe28d05"
+      }
+    ],
+    "SecondaryTokens": [],
+    "Configurations": [
+      {
+        "Configuration": "{\"Statement\":\"let output = inputData.map(function (x) {\\n  return {\\n    \\\"Text\\\": x.Text\\n  }\\n});\\n\\nreturn output;\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 3292,
+        "Name": "input data z postmana",
+        "CopyID": "5c95d67f-ee64-459d-94bd-243c1f0e1bb9"
+      }
+    ],
+    "Variables": [],
+    "EntityComments": [],
+    "VariableGroups": [],
+    "Templates": null,
+    "Tags": [],
+    "TagMappings": []
+  }
+}
