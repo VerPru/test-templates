@@ -1,0 +1,2365 @@
+{
+  "Content": {
+    "Name": "Template 2024-02-07 10:54",
+    "ShortDescription": "# Záhlaví  Markdown je skvělý nástroj pro formátování textu. Umožňuje vám psát text s jednoduchými značkami, které se pak převádějí na formátovaný výstup. Můžete použít různé typy formátování, jako jsou záhlaví, odrážky, seznamy, odkazy a m",
+    "Description": "# Záhlaví\n\nMarkdown je skvělý nástroj pro formátování textu. Umožňuje vám psát text s jednoduchými značkami, které se pak převádějí na formátovaný výstup. Můžete použít různé typy formátování, jako jsou záhlaví, odrážky, seznamy, odkazy a mnoho dalšího.\n\n## Seznamy\n\n### Odrážky\n\n- První položka\n- Druhá položka\n- Třetí položka\n\n### Číslované seznamy\n\n1. První položka\n2. Druhá položka\n3. Třetí položka\n\n## Odkazy\n\nMůžete vytvářet odkazy na webové stránky, například [Google](https://www.google.com).\n\n## Zvýraznění\n\nMůžete zvýraznit text *kurzívou* nebo **tučně**.\n\n## Kód\n\nMůžete vložit kód přímo do vašeho textu pomocí \\`kódování\\`.\n\n```python\ndef hello_world():\n    print(\"Hello, world!\")\n",
+    "Version": "1.5.9",
+    "Icon": null,
+    "TransferVersion": 3,
+    "TemplateVersion": 1,
+    "Created": "2024-02-08T11:15:45.1401756Z",
+    "Detachable": true,
+    "Viewable": true,
+    "RegenerateEndpointTokens": true,
+    "Changelog": "# 1.0.0\n - Initial version\n\n# Záhlaví\n\nMarkdown je skvělý nástroj pro formátování textu. Umožňuje vám psát text s jednoduchými značkami, které se pak převádějí na formátovaný výstup. Můžete použít různé typy formátování, jako jsou záhlaví, odrážky, seznamy, odkazy a mnoho dalšího.\n\n## Seznamy\n\n### Odrážky\n\n- První položka\n- Druhá položka\n- Třetí položka\n\n### Číslované seznamy\n\n1. První položka\n2. Druhá položka\n3. Třetí položka\n\n## Odkazy\n\nMůžete vytvářet odkazy na webové stránky, například [Google](https://www.google.com).\n\n## Zvýraznění\n\nMůžete zvýraznit text *kurzívou* nebo **tučně**.\n\n## Kód\n\nMůžete vložit kód přímo do vašeho textu pomocí \\`kódování\\`.\n\n```python\ndef hello_world():\n    print(\"Hello, world!\")\n\n# Záhlaví\n\nMarkdown je skvělý nástroj pro formátování textu. Umožňuje vám psát text s jednoduchými značkami, které se pak převádějí na formátovaný výstup. Můžete použít různé typy formátování, jako jsou záhlaví, odrážky, seznamy, odkazy a mnoho dalšího.\n\n## Seznamy\n\n### Odrážky\n\n- První položka\n- Druhá položka\n- Třetí položka\n\n### Číslované seznamy\n\n1. První položka\n2. Druhá položka\n3. Třetí položka\n\n## Odkazy\n\nMůžete vytvářet odkazy na webové stránky, například [Google](https://www.google.com).\n\n## Zvýraznění\n\nMůžete zvýraznit text *kurzívou* nebo **tučně**.\n\n## Kód\n\nMůžete vložit kód přímo do vašeho textu pomocí \\`kódování\\`.\n\n```python\ndef hello_world():\n    print(\"Hello, world!\")\n",
+    "Tasks": [
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "5346f45b-663c-4862-9647-ecd84501eed1",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "77339b47-aa1d-45b8-9633-638a1cd88d91",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6623,
+                "Name": null,
+                "CopyID": "c5a807d3-b6fc-4fd6-b6a8-9a00457f03fa"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3993,
+            "Name": "EIN input for ARES",
+            "CopyID": "5d8a4865-2339-41e8-a3e9-1f288f274cd6"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "EIN": "EIN input for ARES.EIN"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "b1b428eb-24e8-4d39-8b4f-4e7cb7f03dc5",
+              "Version": "3.0.0"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "5d8a4865-2339-41e8-a3e9-1f288f274cd6",
+            "InputSchema": {
+              "Guid": "5346f45b-663c-4862-9647-ecd84501eed1",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "6168364e-d445-45e4-8e29-86c119fa4d90",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "2c04ca90-2ab0-4686-9901-99ab13c08666",
+                "ConfigurationSchema": {
+                  "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+                  "Version": "1.0.0"
+                },
+                "ID": 6624,
+                "Name": null,
+                "CopyID": "4b7fa583-d9f5-45c7-a6c8-a231cae7f911"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3994,
+            "Name": "Ares Reader",
+            "CopyID": "c3c5071d-6c86-41a6-ad24-cc7acd3b2c5d"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "c3c5071d-6c86-41a6-ad24-cc7acd3b2c5d",
+            "InputSchema": null,
+            "OutputSchema": {
+              "CopyID": "d4308b07-1a9b-459b-8fcd-752a5051811f"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "437b7c51-805b-4045-882e-f1f660bb3749",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6625,
+                "Name": null,
+                "CopyID": "5b3561a9-50e2-43a6-99dc-24893260dfe6"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3995,
+            "Name": "TAXIN input for VAT and VIES VAT",
+            "CopyID": "5857b7a9-e221-477a-ab46-cdd82c1a4ce0"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "TAXIN": "TAXIN input for VAT and VIES VAT.TAXIN"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "2dc28301-ff57-4fe2-93ad-11a167a0ac4a",
+              "Version": "3.0.0"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "5857b7a9-e221-477a-ab46-cdd82c1a4ce0",
+            "InputSchema": {
+              "Guid": "d9e7d15c-421c-4352-b1c1-7042f1bde3c1",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "ed368115-2394-40d8-8842-931cc1216cb0",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "14fcaf14-3960-490a-8664-06cef7468aaa",
+                "ConfigurationSchema": {
+                  "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+                  "Version": "1.0.0"
+                },
+                "ID": 6626,
+                "Name": null,
+                "CopyID": "8a035439-72f4-473b-9aff-33f99abe023f"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3996,
+            "Name": "VAT Payer Reader",
+            "CopyID": "d0f6ea2f-cfce-4eb9-bfd0-820a9c24dfa3"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "TAXIN": "TAXIN input for VAT and VIES VAT.TAXIN"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "54a1dcc0-e2b1-4285-b08f-6aa469578793",
+              "Version": "3.0.0"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "d0f6ea2f-cfce-4eb9-bfd0-820a9c24dfa3",
+            "InputSchema": {
+              "Guid": "52d3d12a-9c7b-40e6-901b-dd4964ed787b",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "df5ee23c-8073-45cc-b44d-4591b1ee1daf",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "7e00c242-0920-4c38-a466-d62c1a25ef1f",
+                "ConfigurationSchema": {
+                  "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+                  "Version": "1.0.0"
+                },
+                "ID": 6627,
+                "Name": null,
+                "CopyID": "890dd92d-e462-41ed-a20b-72f11151496d"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3997,
+            "Name": "VIES VAT Payer",
+            "CopyID": "fcc7da24-6034-4e32-8484-f07793aba1f0"
+          }
+        ],
+        "ID": 1299,
+        "Name": "Ares Reader, VAT and VIES VAT Payer Reader",
+        "CopyID": "672ae8b0-df78-4975-955c-cd2804f004eb"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "ac321bb6-a3c4-483a-9d87-bc556318bf81",
+              "Version": "3.0.7"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "75f22468-fa12-4f7d-bd75-da6824f66485",
+              "Version": "1.4.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "122d443f-9377-46ea-9912-c2ce7ce4613e",
+                "ConfigurationSchema": {
+                  "Guid": "c06169a4-2c2b-45f2-9594-f51f051a513f",
+                  "Version": "1.0.1"
+                },
+                "ID": 6595,
+                "Name": null,
+                "CopyID": "a31f6f7d-517c-4c2f-86d3-be1d5a5d2e56"
+              },
+              {
+                "ConfigurationCopyID": "a3b3c041-ce32-407e-84e1-01f290bfb997",
+                "ConfigurationSchema": {
+                  "Guid": "a4f2e703-c49a-486a-9ed7-e7142beb1a2d",
+                  "Version": "1.0.0"
+                },
+                "ID": 6596,
+                "Name": null,
+                "CopyID": "dee5ec7f-bb17-475c-a129-6f04d0d2f2f3"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3966,
+            "Name": "Read",
+            "CopyID": "172532dc-7738-45d6-8c5d-a83675c372e8"
+          }
+        ],
+        "ID": 1290,
+        "Name": "Exchange Reader",
+        "CopyID": "62957260-fc33-4a95-8cb2-43e608183f87"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "7679e370-1e53-4cfc-b8b4-cf873276a085",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "2fe667f3-ee93-4bdc-b53d-4d63b48dc4ad",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6541,
+                "Name": null,
+                "CopyID": "3ace8ad0-9692-4868-b38b-115aa28b1d4f"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3917,
+            "Name": "Step #1",
+            "CopyID": "edb012bc-4538-4e8b-80f8-2dded9008cfd"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "BoardID": "Step #1.BoardID",
+              "ItemID": "Step #1.ItemID",
+              "ColumnValues": "Step #1.ColumnValues"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "38df1b96-db7d-4521-99e2-9d965574943b",
+              "Version": "3.0.1"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "edb012bc-4538-4e8b-80f8-2dded9008cfd",
+            "InputSchema": {
+              "Guid": "7679e370-1e53-4cfc-b8b4-cf873276a085",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": null,
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "6ef3d42a-e119-49fa-af86-c80e598fc64c",
+                "ConfigurationSchema": {
+                  "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+                  "Version": "1.0.0"
+                },
+                "ID": 6542,
+                "Name": null,
+                "CopyID": "79ec463c-b6f5-4159-9bd2-0c18ac3feea2"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3918,
+            "Name": "Step #2",
+            "CopyID": "d3d88d9b-a2e9-4786-8d9e-0a2fa15fed6a"
+          }
+        ],
+        "ID": 1271,
+        "Name": "Monday Column writer Veronika",
+        "CopyID": "82087fec-9a30-45e4-83bf-43e3d175121e"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "17fb4b77-747c-4184-ab08-c59dde031114",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "548ea810-f946-4753-9761-14c67c94d4b4",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6583,
+                "Name": null,
+                "CopyID": "844f0e14-8593-4846-8994-9bf4ebf6d665"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3955,
+            "Name": "Step #1",
+            "CopyID": "bb5d90db-b376-4786-8538-696144a1b59d"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "DocumentID": "Step #1.DocumentID"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "e0e67253-bed2-465e-9109-7ec78151aa1e",
+              "Version": "3.0.1"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "bb5d90db-b376-4786-8538-696144a1b59d",
+            "InputSchema": {
+              "Guid": "17fb4b77-747c-4184-ab08-c59dde031114",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "9142ac82-c6e7-4c66-9394-efe9d47b5e77",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "26fa2edc-182d-41e8-8904-a86afbcd2935",
+                "ConfigurationSchema": {
+                  "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+                  "Version": "1.0.0"
+                },
+                "ID": 6584,
+                "Name": null,
+                "CopyID": "71f5b152-bd82-4c52-8496-17cf753ed1b1"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3956,
+            "Name": "Step #2",
+            "CopyID": "7614378c-1c89-4a09-a272-e5f53d5cebcb"
+          }
+        ],
+        "ID": 1285,
+        "Name": "Monday docs by id",
+        "CopyID": "38f89d1d-19d8-41f7-8613-4bdfaffac6bf"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "c3f9a4f4-9b8a-4292-b3af-300d364f9d40",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "fc7397b0-cf08-405e-bf9b-3d5e8abb9065",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6597,
+                "Name": null,
+                "CopyID": "e16bff20-c9b8-43cf-b604-14837e4a407d"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3967,
+            "Name": "Step #1",
+            "CopyID": "9455ac17-04f3-4eb7-aade-8cf74bc81c4f"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "BoardID": "Step #1.BoardID"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "4da3cd67-bf2c-470a-b4a1-398ab0b52c8d",
+              "Version": "3.0.2"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "9455ac17-04f3-4eb7-aade-8cf74bc81c4f",
+            "InputSchema": {
+              "Guid": "c3f9a4f4-9b8a-4292-b3af-300d364f9d40",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "5bdd29fb-b543-4d0a-acf6-c249ffe40e62",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "85896e8c-2ebd-493a-8fdb-ba9c1932b630",
+                "ConfigurationSchema": {
+                  "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+                  "Version": "1.0.0"
+                },
+                "ID": 6598,
+                "Name": null,
+                "CopyID": "0333dfc7-cf7b-470d-9594-ff86defa76b8"
+              },
+              {
+                "ConfigurationCopyID": "3543d8f1-d448-4c23-9557-12aa9add72be",
+                "ConfigurationSchema": {
+                  "Guid": "77ce0378-96dc-4d38-ad9d-428f60c95288",
+                  "Version": "1.0.0"
+                },
+                "ID": 6599,
+                "Name": null,
+                "CopyID": "3abc9c73-10c9-4d83-abf3-042c036d01db"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3968,
+            "Name": "Step #2",
+            "CopyID": "e5f77f08-8411-42ca-b36c-9d425bd9a627"
+          }
+        ],
+        "ID": 1291,
+        "Name": "Monday Generic Processor",
+        "CopyID": "515408ee-0e5c-4c6d-929f-7969c0038c3b"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1d51d244-50b7-4a79-af8c-8ef3c073c14f",
+              "Version": "3.0.1"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "39ce3caa-60dc-478f-902a-76001d80853a",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "257ebf64-da33-48bc-9635-5f8480a7b715",
+                "ConfigurationSchema": {
+                  "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+                  "Version": "1.0.0"
+                },
+                "ID": 6585,
+                "Name": null,
+                "CopyID": "332def56-e576-4bcc-addf-4275ac883c4c"
+              },
+              {
+                "ConfigurationCopyID": "2f44e30f-923a-4f7c-89a8-558edec35e64",
+                "ConfigurationSchema": {
+                  "Guid": "3193f506-9f1e-4079-ae42-052d1416aecb",
+                  "Version": "1.0.0"
+                },
+                "ID": 6586,
+                "Name": null,
+                "CopyID": "8a4d0f24-ffab-4a90-8501-778a91e5dfc5"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3957,
+            "Name": "Step #1",
+            "CopyID": "371b0413-e485-4f22-9673-65164e3868c8"
+          }
+        ],
+        "ID": 1286,
+        "Name": "Monday Item Reader",
+        "CopyID": "666fbfcf-0aee-4dd4-b810-a0bea38314f0"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "UserGroupKey": "Step #2.UserGroupKey",
+              "Message": "Step #2.Message",
+              "Title": "Step #2.Title",
+              "Priority": "Step #2.Priority",
+              "RetryAfter": "Step #2.RetryAfter",
+              "ExpireAt": "Step #2.ExpireAt",
+              "Html": "Step #2.Html",
+              "Url": "Step #2.Url",
+              "UrlTitle": "Step #2.UrlTitle"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "20d0269f-508b-4089-a731-cfd7d783e887",
+              "Version": "3.0.0"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "785be6f9-a7d8-4571-ba74-a6019f795baf",
+            "InputSchema": {
+              "Guid": "307f69cd-a04d-4d30-85d0-d4bf95395d0b",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": null,
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "4a650236-ba4a-4cc8-9750-1019a85e2087",
+                "ConfigurationSchema": {
+                  "Guid": "80a539dc-1b26-4382-a7d2-10796341a86e",
+                  "Version": "1.0.0"
+                },
+                "ID": 6614,
+                "Name": null,
+                "CopyID": "392347d3-a194-40a0-aec0-818e5f4a39bd"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3981,
+            "Name": "Step #1",
+            "CopyID": "1b47d0a5-0c87-4dfd-a8ff-7af367bd0085"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "307f69cd-a04d-4d30-85d0-d4bf95395d0b",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "f137eb2b-5c3c-4d0b-8937-19a59ce66c03",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6615,
+                "Name": null,
+                "CopyID": "1e0c45d5-25b9-4f92-b6cf-80dda9f498c3"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3982,
+            "Name": "Step #2",
+            "CopyID": "785be6f9-a7d8-4571-ba74-a6019f795baf"
+          }
+        ],
+        "ID": 1296,
+        "Name": "Pushover funkční",
+        "CopyID": "7def819e-89dd-42ab-954e-3f85052267b6"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "dc59661b-2769-458a-a6a9-bad6cbb56b1f",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 6589,
+                "Name": null,
+                "CopyID": "fd29494e-5b62-4260-9480-3df4bc34f826"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3961,
+            "Name": "Step #1",
+            "CopyID": "f080381c-6e1e-471d-ab1e-a958d31f8460"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "Text": "Step #1.Text"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "e029f73f-de4f-40e4-adf7-ee583c193c67",
+              "Version": "3.0.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "f080381c-6e1e-471d-ab1e-a958d31f8460",
+            "InputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "48427e1f-8c78-46b3-b594-3911274dc4c4",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "9e70b972-b489-4284-9e82-33f0469de95b",
+                "ConfigurationSchema": {
+                  "Guid": "0a0ef84f-a0a1-42f1-a5ba-7c747fb70c34",
+                  "Version": "1.0.0"
+                },
+                "ID": 6590,
+                "Name": null,
+                "CopyID": "08ab0e85-0b19-4f02-a435-7e10dfa9be8c"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3962,
+            "Name": "Step #2",
+            "CopyID": "6e967cba-b2a5-40df-81c3-556d2992e971"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": false,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "Data": "Step #1.Step #2.Data"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "982bf4e7-0857-4fbb-88ff-2ad3581d35e8",
+              "Version": "3.0.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "6e967cba-b2a5-40df-81c3-556d2992e971",
+            "InputSchema": {
+              "Guid": "48427e1f-8c78-46b3-b594-3911274dc4c4",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "c37c2208-b50d-4734-8904-343bc79d9395",
+                "ConfigurationSchema": {
+                  "Guid": "0a0ef84f-a0a1-42f1-a5ba-7c747fb70c34",
+                  "Version": "1.0.0"
+                },
+                "ID": 6591,
+                "Name": null,
+                "CopyID": "e588951f-a271-474b-bebe-676e4f8279e3"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 3963,
+            "Name": "Step #3",
+            "CopyID": "f560c796-90c3-4131-af38-cec97c415aab"
+          }
+        ],
+        "ID": 1288,
+        "Name": "Text To Base64 Converter",
+        "CopyID": "e22b092f-8349-4abd-a703-9b6501022957"
+      }
+    ],
+    "Connectors": [
+      {
+        "Name": "JS Mapper",
+        "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+        "Version": "3.2.3"
+      },
+      {
+        "Name": "Monday Item Column Values Writer",
+        "Guid": "38df1b96-db7d-4521-99e2-9d965574943b",
+        "Version": "3.0.1"
+      },
+      {
+        "Name": "Monday Documents By Id Reader",
+        "Guid": "e0e67253-bed2-465e-9109-7ec78151aa1e",
+        "Version": "3.0.1"
+      },
+      {
+        "Name": "Monday Items Reader",
+        "Guid": "1d51d244-50b7-4a79-af8c-8ef3c073c14f",
+        "Version": "3.0.1"
+      },
+      {
+        "Name": "Text To Base64 Converter",
+        "Guid": "e029f73f-de4f-40e4-adf7-ee583c193c67",
+        "Version": "3.0.4"
+      },
+      {
+        "Name": "Base64 To Text Converter",
+        "Guid": "982bf4e7-0857-4fbb-88ff-2ad3581d35e8",
+        "Version": "3.0.4"
+      },
+      {
+        "Name": "Microsoft Exchange Reader Connector",
+        "Guid": "ac321bb6-a3c4-483a-9d87-bc556318bf81",
+        "Version": "3.0.7"
+      },
+      {
+        "Name": "Monday Generic Processor",
+        "Guid": "4da3cd67-bf2c-470a-b4a1-398ab0b52c8d",
+        "Version": "3.0.2"
+      },
+      {
+        "Name": "Pushover Message Writer",
+        "Guid": "20d0269f-508b-4089-a731-cfd7d783e887",
+        "Version": "3.0.0"
+      },
+      {
+        "Name": "Ares Reader Connector",
+        "Guid": "b1b428eb-24e8-4d39-8b4f-4e7cb7f03dc5",
+        "Version": "3.0.0"
+      },
+      {
+        "Name": "VAT Payer Reader Connector",
+        "Guid": "2dc28301-ff57-4fe2-93ad-11a167a0ac4a",
+        "Version": "3.0.0"
+      },
+      {
+        "Name": "VIES VAT Payer Reader Connector",
+        "Guid": "54a1dcc0-e2b1-4285-b08f-6aa469578793",
+        "Version": "3.0.0"
+      }
+    ],
+    "DataSchemas": [
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ColumnID",
+            "CopyID": "7acb2a06-4aaa-4edb-a4e2-da0f07cb3b67"
+          },
+          {
+            "Order": 2,
+            "Type": 8,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Value",
+            "CopyID": "51b8a3bf-520c-4239-bf27-8fa50a77f49e"
+          }
+        ],
+        "ID": 124,
+        "Guid": "429fa9b9-4280-43ae-be4f-3f7072b5866c",
+        "Version": "1.0.0",
+        "Name": "Monday Item Column Value",
+        "CopyID": "a742420f-af27-4bfc-b0f7-6bd398297d4d"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "BoardID",
+            "CopyID": "f4f76d81-fb01-4614-8950-37a995b4fa86"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ItemID",
+            "CopyID": "177ee1f1-a3a2-4038-bfa7-c414f570bff7"
+          },
+          {
+            "Order": 3,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "429fa9b9-4280-43ae-be4f-3f7072b5866c",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "ColumnValues",
+            "CopyID": "f4f52def-f7a9-49cd-ad8a-7701ff5bb35b"
+          }
+        ],
+        "ID": 125,
+        "Guid": "7679e370-1e53-4cfc-b8b4-cf873276a085",
+        "Version": "1.0.0",
+        "Name": "Monday Item Column Values Writer Input",
+        "CopyID": "7197d79a-4500-4dce-a2f2-ff3388796a42"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "DocumentID",
+            "CopyID": "378898b7-a81a-4b60-8ee5-f198fd80bc72"
+          }
+        ],
+        "ID": 122,
+        "Guid": "17fb4b77-747c-4184-ab08-c59dde031114",
+        "Version": "1.0.0",
+        "Name": "Monday Docs By Id Reader Input",
+        "CopyID": "1d1f2ce8-e2fb-47eb-a29b-c59b037b5842"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Text",
+            "CopyID": "e22db5f1-567e-42b8-a671-cd5c8bd2d118"
+          }
+        ],
+        "ID": 14,
+        "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+        "Version": "1.0.0",
+        "Name": "Text",
+        "CopyID": "b6eb6943-67de-47ee-966c-f2c28d848e32"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 4,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Data",
+            "CopyID": "855c3b31-baf1-41f8-8dee-8123bd056ae6"
+          }
+        ],
+        "ID": 16,
+        "Guid": "48427e1f-8c78-46b3-b594-3911274dc4c4",
+        "Version": "1.0.0",
+        "Name": "Data",
+        "CopyID": "4fcdb9f5-6be1-4d25-9a8b-bf05cc41a472"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "BoardID",
+            "CopyID": "5aaa0801-5808-484c-b66f-d89da9dbde5e"
+          }
+        ],
+        "ID": 111,
+        "Guid": "c3f9a4f4-9b8a-4292-b3af-300d364f9d40",
+        "Version": "1.0.0",
+        "Name": "Monday Board Columns Reader Input",
+        "CopyID": "bd82d4de-5de8-4ad6-bbb5-ec2d0fe7c937"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "UserGroupKey",
+            "CopyID": "5d735ac5-888c-424b-8c3a-882421e3986b"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Message",
+            "CopyID": "87056284-c3b6-4856-9db0-e13f4b42baea"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Title",
+            "CopyID": "89223202-d5b4-4008-b28e-90c3048089ad"
+          },
+          {
+            "Order": 4,
+            "Type": 1,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Priority",
+            "CopyID": "910a980d-a092-461f-a2ee-2c0df8213e5e"
+          },
+          {
+            "Order": 5,
+            "Type": 1,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "RetryAfter",
+            "CopyID": "01bdb3c0-ace1-4519-9a8c-e04a823e1bf5"
+          },
+          {
+            "Order": 6,
+            "Type": 1,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "ExpireAt",
+            "CopyID": "2e502b4a-2d92-4223-beea-fd1b94991d5e"
+          },
+          {
+            "Order": 7,
+            "Type": 3,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Html",
+            "CopyID": "ba0d8eba-408c-4ff3-9948-d927161fd1fe"
+          },
+          {
+            "Order": 8,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Url",
+            "CopyID": "463335f3-a0ba-44c4-b596-5a27156d1d34"
+          },
+          {
+            "Order": 9,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "UrlTitle",
+            "CopyID": "f2f98acf-17c3-4aa9-af2c-9b10fe4b4f13"
+          }
+        ],
+        "ID": 145,
+        "Guid": "307f69cd-a04d-4d30-85d0-d4bf95395d0b",
+        "Version": "1.0.0",
+        "Name": "Pushover Message Writer Input",
+        "CopyID": "5bf505ea-3034-41a5-a7fe-9311cde82e43"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "EIN",
+            "CopyID": "fb7a14ea-4366-4452-afbb-4761ae139a8e"
+          }
+        ],
+        "ID": 9,
+        "Guid": "5346f45b-663c-4862-9647-ecd84501eed1",
+        "Version": "1.0.0",
+        "Name": "Ares Input",
+        "CopyID": "782215e5-14ef-47c6-bf87-a23af428d02b"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "TAXIN",
+            "CopyID": "2929bbd4-bbbf-4055-8a45-6aae6346c481"
+          }
+        ],
+        "ID": 154,
+        "Guid": "d9e7d15c-421c-4352-b1c1-7042f1bde3c1",
+        "Version": "1.0.0",
+        "Name": "Vat Payer Input",
+        "CopyID": "660ee470-0f82-4da3-9f3f-e8048a1c3225"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "TAXIN",
+            "CopyID": "abf2a352-a9a6-4253-9924-ae7fd96dde73"
+          }
+        ],
+        "ID": 156,
+        "Guid": "52d3d12a-9c7b-40e6-901b-dd4964ed787b",
+        "Version": "1.0.0",
+        "Name": "Vies Vat Payer Input",
+        "CopyID": "1d6149ad-8718-4340-b3b5-ea7eae7a0490"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "eb64e095-5561-4362-abf0-9f5ab8cad921"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "ParentBlockID",
+            "CopyID": "5ab9da92-7d94-4432-bec8-3506029d6bed"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Type",
+            "CopyID": "78bf4847-d937-49eb-a4f2-3c64810f9cff"
+          },
+          {
+            "Order": 4,
+            "Type": 8,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Content",
+            "CopyID": "929a0d2b-c48b-40dd-b0c5-245060f9892d"
+          }
+        ],
+        "ID": 120,
+        "Guid": "919871d5-7f50-4cb3-a9d5-0ac9d2528f14",
+        "Version": "1.0.0",
+        "Name": "Monday Docs Reader Block",
+        "CopyID": "4346b843-22b9-4ebe-a29b-358b5f7ca719"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "f1607acc-e43d-490d-941d-222f5a82d638"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ObjectID",
+            "CopyID": "1bc31fea-5576-41b4-8766-0bcf56daaf70"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "e1a62ed2-7baa-41eb-84f6-8aa8e87a1dac"
+          },
+          {
+            "Order": 4,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Url",
+            "CopyID": "40e4a7f0-1e6e-41eb-9602-c84271182386"
+          },
+          {
+            "Order": 5,
+            "Type": 3,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "IsEmpty",
+            "CopyID": "c1f24d83-6598-4b90-b590-d44a0151b9da"
+          },
+          {
+            "Order": 6,
+            "Type": 8,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Settings",
+            "CopyID": "c17310e1-7f97-4800-b4ca-d2b75bd7db58"
+          },
+          {
+            "Order": 7,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "919871d5-7f50-4cb3-a9d5-0ac9d2528f14",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "Blocks",
+            "CopyID": "05e35912-bf1e-496d-ac55-68ae2b906bcf"
+          }
+        ],
+        "ID": 121,
+        "Guid": "9142ac82-c6e7-4c66-9394-efe9d47b5e77",
+        "Version": "1.0.0",
+        "Name": "Monday Docs Reader Output",
+        "CopyID": "42b16922-65dc-4f82-821e-7940b6acab5f"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "6ac191a2-0973-4fcf-bfa3-9015ffba37f6"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "1fa84a62-87b7-4838-92a6-bee1dfa9d319"
+          }
+        ],
+        "ID": 131,
+        "Guid": "68f5f056-6745-400d-9525-c73f57913a78",
+        "Version": "1.0.0",
+        "Name": "Monday Items Reader Group",
+        "CopyID": "8fa01f61-a3de-48a4-b7dd-ed6ee6701aac"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "a1317717-eacf-4afa-a946-d970bcd4c727"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "b9e47878-b1c6-48a5-be9f-80ee5036f53b"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "PlainValue",
+            "CopyID": "2e7a0983-06bc-4689-b5c2-fd02970c30d1"
+          },
+          {
+            "Order": 4,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Value",
+            "CopyID": "ea95b914-a21a-4c6c-8584-7337fa6c413b"
+          }
+        ],
+        "ID": 132,
+        "Guid": "cb5814f2-3378-4b36-af82-3c620b3cd0f3",
+        "Version": "1.0.0",
+        "Name": "Monday Items Reader Column Value",
+        "CopyID": "92ef3aed-a859-48b7-adde-425cf2b84c97"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "24f35ae1-8ef3-4446-8012-528d095538ec"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "84f64e05-d33d-4111-b4c9-f88b24e237ff"
+          },
+          {
+            "Order": 3,
+            "Type": 7,
+            "AllowNull": false,
+            "ComplexType": {
+              "Guid": "68f5f056-6745-400d-9525-c73f57913a78",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "Group",
+            "CopyID": "8c2a25d4-efb9-4ea2-b75f-37372724c2b0"
+          },
+          {
+            "Order": 4,
+            "Type": 7,
+            "AllowNull": false,
+            "ComplexType": {
+              "Guid": "cb5814f2-3378-4b36-af82-3c620b3cd0f3",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "ColumnValues",
+            "CopyID": "1ff8c228-7716-4baa-aef0-97a3e6d6caeb"
+          }
+        ],
+        "ID": 133,
+        "Guid": "39ce3caa-60dc-478f-902a-76001d80853a",
+        "Version": "1.0.0",
+        "Name": "Monday Items Reader Output",
+        "CopyID": "56019ec6-71a8-455d-b42d-f92ec998c62c"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "c9d53bae-408c-428d-8b76-cb9d057c3602"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Address",
+            "CopyID": "0956f066-d0ed-4422-824f-85f4db2b657c"
+          }
+        ],
+        "ID": 75,
+        "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+        "Version": "1.0.0",
+        "Name": "E-Mail Person",
+        "CopyID": "8d22183b-5746-4b8f-952a-909148bacc8e"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "0e53aa78-fc9c-462e-837d-e6f770c2233f"
+          },
+          {
+            "Order": 2,
+            "Type": 4,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Content",
+            "CopyID": "8c414e71-162b-4762-856f-0e7a7d7ce4f2"
+          }
+        ],
+        "ID": 73,
+        "Guid": "03645dd1-0b1d-4645-993a-8a69585acbdf",
+        "Version": "1.0.0",
+        "Name": "E-Mail Attachment",
+        "CopyID": "c4e2c273-4ce5-4c5b-90c8-64966da1ab06"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "ID",
+            "CopyID": "8ad108cf-caa0-4a5c-88e7-023f0e6d6498"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Email",
+            "CopyID": "6576f3b6-872a-4185-b573-72eec6207fbd"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Subject",
+            "CopyID": "a98700f0-108d-4037-9de1-5221775b09b8"
+          },
+          {
+            "Order": 4,
+            "Type": 7,
+            "AllowNull": false,
+            "ComplexType": {
+              "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "From",
+            "CopyID": "b7c026c4-8e81-436c-9c5f-df5f13649ddb"
+          },
+          {
+            "Order": 5,
+            "Type": 7,
+            "AllowNull": false,
+            "ComplexType": {
+              "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "To",
+            "CopyID": "101eaa24-6365-4cb7-9ed0-0066d47b5ba9"
+          },
+          {
+            "Order": 6,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "Cc",
+            "CopyID": "aea61c3b-fe00-4332-b2ab-3919c3beb75f"
+          },
+          {
+            "Order": 7,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "Bcc",
+            "CopyID": "0b341854-a8e3-40e1-a7e3-a88dea6acc5e"
+          },
+          {
+            "Order": 8,
+            "Type": 5,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "DateSent",
+            "CopyID": "d3182aa9-5ffd-443f-9977-bd437f4c0155"
+          },
+          {
+            "Order": 9,
+            "Type": 5,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "DateReceived",
+            "CopyID": "6321939d-8b8f-43a3-9815-14d1d4fec06b"
+          },
+          {
+            "Order": 10,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "132e2513-f29a-47d6-b910-a1b261e9bab2",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "ReplyTo",
+            "CopyID": "8bf454e2-2928-4e37-acf9-f6ea54b99029"
+          },
+          {
+            "Order": 11,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "BodyText",
+            "CopyID": "c3c8d9c1-3dce-4209-a10d-1abf26f83759"
+          },
+          {
+            "Order": 12,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Body",
+            "CopyID": "5990f8f3-5d46-4eec-9207-ed7f49d5efd6"
+          },
+          {
+            "Order": 13,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Importance",
+            "CopyID": "41ddb0ad-7eb3-4f54-8a62-ab4422a92062"
+          },
+          {
+            "Order": 14,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "03645dd1-0b1d-4645-993a-8a69585acbdf",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "Attachment",
+            "CopyID": "7a37989f-f3fa-4a3f-a994-4b174fa26e37"
+          }
+        ],
+        "ID": 76,
+        "Guid": "75f22468-fa12-4f7d-bd75-da6824f66485",
+        "Version": "1.4.0",
+        "Name": "E-Mail",
+        "CopyID": "5d77ef5c-7496-41b9-ad31-6053b47fc914"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 8,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "JSON",
+            "CopyID": "6e677d15-fadb-4a3b-9849-b0648528fb6f"
+          }
+        ],
+        "ID": 15,
+        "Guid": "5bdd29fb-b543-4d0a-acf6-c249ffe40e62",
+        "Version": "1.0.0",
+        "Name": "JSON",
+        "CopyID": "eb05d9ca-0cec-4c69-a678-100178a1c1ec"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Code",
+            "CopyID": "460ca60b-4677-4954-8543-c06fc179abeb"
+          }
+        ],
+        "ID": 10,
+        "Guid": "48780c13-d902-44d7-94c3-393ac7f47faa",
+        "Version": "1.0.0",
+        "Name": "Ares Economic Activity",
+        "CopyID": "b8a16b8a-c8bc-4502-905e-816aeed9d391"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 1,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "StatusID",
+            "CopyID": "7c968660-cea5-4617-b0a7-571598cca85c"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "StatusName",
+            "CopyID": "4b8838b2-70b9-4917-8317-1b81bd9aac57"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "EIN",
+            "CopyID": "5829bc7e-ac25-4bfb-94bb-9d6ca6c31cd6"
+          },
+          {
+            "Order": 4,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "TAXIN",
+            "CopyID": "b14b3802-7441-4937-92f9-71becd2185f5"
+          },
+          {
+            "Order": 5,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "5e838f83-d287-4bdd-872e-98f25419b559"
+          },
+          {
+            "Order": 6,
+            "Type": 5,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "RegistrationDate",
+            "CopyID": "ed2fdd3e-58e6-4409-aa4d-53061667add9"
+          },
+          {
+            "Order": 7,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Type",
+            "CopyID": "ad51d600-54d3-48af-9ded-0f6153533f5e"
+          },
+          {
+            "Order": 8,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "FullStreet",
+            "CopyID": "91d78a2c-7006-4833-9ff0-fb344c7db97a"
+          },
+          {
+            "Order": 9,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "FullCity",
+            "CopyID": "ae7ffe64-88ab-41ad-a7f6-f925c991b6e9"
+          },
+          {
+            "Order": 10,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Country",
+            "CopyID": "c57723af-8a62-4411-a137-4eb573b9b16a"
+          },
+          {
+            "Order": 11,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "City",
+            "CopyID": "28e3c27b-29c0-46c0-a5e7-f75f51870ac8"
+          },
+          {
+            "Order": 12,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "City2",
+            "CopyID": "39f4eff6-908f-4577-a1fa-08756f77def3"
+          },
+          {
+            "Order": 13,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "City3",
+            "CopyID": "57afcc84-fa3e-4878-b1f7-553343cd46ba"
+          },
+          {
+            "Order": 14,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "PostalCode",
+            "CopyID": "a22f5af6-519f-4a16-8b95-3039606b0e83"
+          },
+          {
+            "Order": 15,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Street",
+            "CopyID": "ad1da7dd-cbed-4733-a990-32e9bdb36287"
+          },
+          {
+            "Order": 16,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "StreetNumber",
+            "CopyID": "8f0dcd43-e391-4d5d-8150-676c677653e5"
+          },
+          {
+            "Order": 17,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "StreetNumber2",
+            "CopyID": "b5d2c538-5acb-47c0-bc93-2e6ed13ba0ee"
+          },
+          {
+            "Order": 18,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "TradeLicenseIssuer",
+            "CopyID": "5ff2f527-e81a-410f-a6d1-808490db85f0"
+          },
+          {
+            "Order": 19,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "RegisterLocation",
+            "CopyID": "5699c3b4-cfcb-40e1-8aa6-af4fbdd0da38"
+          },
+          {
+            "Order": 20,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "RegisterNumber",
+            "CopyID": "98ddd976-83b7-430b-886d-ce2ed0d2277d"
+          },
+          {
+            "Order": 21,
+            "Type": 7,
+            "AllowNull": true,
+            "ComplexType": {
+              "Guid": "48780c13-d902-44d7-94c3-393ac7f47faa",
+              "Version": "1.0.0"
+            },
+            "ID": 0,
+            "Name": "EconomicActivity",
+            "CopyID": "6ba4bb10-a70a-4cce-a3b1-630720a06bc2"
+          }
+        ],
+        "ID": 11,
+        "Guid": "6168364e-d445-45e4-8e29-86c119fa4d90",
+        "Version": "1.0.0",
+        "Name": "Ares Output",
+        "CopyID": "4a9ed67c-3530-4ac9-9a84-008e7ec53697"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 0,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "TAXIN",
+            "CopyID": "29f891a0-b275-4bd2-9d23-e2588bfb660c"
+          }
+        ],
+        "ID": 578,
+        "Name": "VAT, Vies VAT Taxin",
+        "CopyID": "d4308b07-1a9b-459b-8fcd-752a5051811f"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 1,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "StatusID",
+            "CopyID": "69352c5f-56f4-4f0f-b3de-2715cd63b0cd"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "StatusName",
+            "CopyID": "cedaa20f-0488-406f-98e0-75c14b5de6c0"
+          },
+          {
+            "Order": 3,
+            "Type": 3,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "IsReliable",
+            "CopyID": "42627d43-6315-42c4-a02b-2e1d52fc8123"
+          },
+          {
+            "Order": 4,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "db96c899-9fdd-46cb-b990-953fe23276a0"
+          },
+          {
+            "Order": 5,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Street",
+            "CopyID": "b433b96b-1eba-4fe0-9c20-7bcd2a35a103"
+          },
+          {
+            "Order": 6,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "CityPart",
+            "CopyID": "e3280dc4-6fbe-4dbd-b582-752e72218a71"
+          },
+          {
+            "Order": 7,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "City",
+            "CopyID": "1faffed9-d646-4da0-a567-955c7e9b7c4d"
+          },
+          {
+            "Order": 8,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "PostalCode",
+            "CopyID": "9d820464-3c33-4a49-a3f5-754ee1bd4b77"
+          },
+          {
+            "Order": 9,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Country",
+            "CopyID": "28227084-772e-473b-b5b2-6445ff419b30"
+          }
+        ],
+        "ID": 155,
+        "Guid": "ed368115-2394-40d8-8842-931cc1216cb0",
+        "Version": "1.0.0",
+        "Name": "Vat Payer Output",
+        "CopyID": "d4c018e6-2e4b-495d-93a2-f88a81418c45"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 3,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "IsReliable",
+            "CopyID": "b66290e1-4378-46d0-a2de-05e82a6ef151"
+          },
+          {
+            "Order": 2,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Name",
+            "CopyID": "5117d1a4-def2-431d-8f7e-7c60816f0e88"
+          },
+          {
+            "Order": 3,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "Address",
+            "CopyID": "54ae376e-e46c-4f6e-8a79-d76120d2168a"
+          }
+        ],
+        "ID": 157,
+        "Guid": "df5ee23c-8073-45cc-b44d-4591b1ee1daf",
+        "Version": "1.0.0",
+        "Name": "Vies Vat Payer Output",
+        "CopyID": "9f7ddf1f-c155-48ce-b85c-56bc1bab0bde"
+      }
+    ],
+    "Agents": [],
+    "TaskGroups": [],
+    "EndpointGroups": [],
+    "Endpoints": [],
+    "SecondaryTokens": [],
+    "Configurations": [
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n  \\\"EIN\\\": \\\"27428559\\\"\\n}]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2640,
+        "Name": "EIN input for ARES",
+        "CopyID": "77339b47-aa1d-45b8-9633-638a1cd88d91"
+      },
+      {
+        "Configuration": "{\"Hostname\":\"https://ares.xeelo.online\",\"Timeout\":100}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2641,
+        "Name": "Ares Reader",
+        "CopyID": "2c04ca90-2ab0-4686-9901-99ab13c08666"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n  \\\"TAXIN\\\": \\\"CZ27428559\\\"\\n}]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2642,
+        "Name": "TAXIN input for VAT and VIES VAT",
+        "CopyID": "437b7c51-805b-4045-882e-f1f660bb3749"
+      },
+      {
+        "Configuration": "{\"Hostname\":\"https://czvat.xeelo.online\",\"Timeout\":100}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2643,
+        "Name": "VAT Payer Reader",
+        "CopyID": "14fcaf14-3960-490a-8664-06cef7468aaa"
+      },
+      {
+        "Configuration": "{\"Hostname\":\"https://viesvat-ws.olo.xeelo.net\",\"Timeout\":100}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "47c26af2-0972-40a5-9999-72ffbf576ce3",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2644,
+        "Name": "VIES VAT Payer",
+        "CopyID": "7e00c242-0920-4c38-a466-d62c1a25ef1f"
+      },
+      {
+        "Configuration": "{\"ApiToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI3Mzc3Nzc1MCwiYWFpIjoxMSwidWlkIjo0NTIzNzM0NiwiaWFkIjoiMjAyMy0wOC0wOFQxMzozNjo0OS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzU4ODcxOCwicmduIjoidXNlMSJ9.sJX2WB2Qpby3M5ZrkEtgBBgmADNltkfefTeMTA2pmCA\",\"Timeout\":60}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2657,
+        "Name": "Monday Token",
+        "CopyID": "26fa2edc-182d-41e8-8904-a86afbcd2935"
+      },
+      {
+        "Configuration": "{\"ApiToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI3Mzc3Nzc1MCwiYWFpIjoxMSwidWlkIjo0NTIzNzM0NiwiaWFkIjoiMjAyMy0wOC0wOFQxMzozNjo0OS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzU4ODcxOCwicmduIjoidXNlMSJ9.sJX2WB2Qpby3M5ZrkEtgBBgmADNltkfefTeMTA2pmCA\",\"Timeout\":60}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2659,
+        "Name": "Monday Update Writer",
+        "CopyID": "257ebf64-da33-48bc-9635-5f8480a7b715"
+      },
+      {
+        "Configuration": "{\"ApiToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI3Mzc3Nzc1MCwiYWFpIjoxMSwidWlkIjo0NTIzNzM0NiwiaWFkIjoiMjAyMy0wOC0wOFQxMzozNjo0OS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzU4ODcxOCwicmduIjoidXNlMSJ9.sJX2WB2Qpby3M5ZrkEtgBBgmADNltkfefTeMTA2pmCA\",\"Timeout\":60}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2660,
+        "Name": "Monday Token",
+        "CopyID": "85896e8c-2ebd-493a-8fdb-ba9c1932b630"
+      },
+      {
+        "Configuration": "{\"BoardID\":\"4956617790\",\"FilteringType\":1,\"ColumnValuesFilter\":[]}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "3193f506-9f1e-4079-ae42-052d1416aecb",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2661,
+        "Name": "Step #1",
+        "CopyID": "2f44e30f-923a-4f7c-89a8-558edec35e64"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [\\n  { \\n  \\\"BoardID\\\": \\\"4956617790\\\", \\n  \\\"ItemID\\\": \\\"4956617898\\\",\\n  \\\"ColumnValues\\\":\\n  [\\n    {\\n    \\\"ColumnID\\\": \\\"name\\\",\\n    \\\"Value\\\": \\\"VP Monday Column writer test\\\"\\n    }\\n  ] },\\n]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2663,
+        "Name": "Column Writer",
+        "CopyID": "2fe667f3-ee93-4bdc-b53d-4d63b48dc4ad"
+      },
+      {
+        "Configuration": "{\"ApiToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI3Mzc3Nzc1MCwiYWFpIjoxMSwidWlkIjo0NTIzNzM0NiwiaWFkIjoiMjAyMy0wOC0wOFQxMzozNjo0OS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MzU4ODcxOCwicmduIjoidXNlMSJ9.sJX2WB2Qpby3M5ZrkEtgBBgmADNltkfefTeMTA2pmCA\",\"Timeout\":60}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "2d827f44-96fa-4c25-9d10-f3d9c5cf8d3e",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2664,
+        "Name": "Step #2",
+        "CopyID": "6ef3d42a-e119-49fa-af86-c80e598fc64c"
+      },
+      {
+        "Configuration": "{\"AADInstance\":\"https://login.windows.net/\",\"TenantId\":\"intelstudios.com\",\"AzureClientAppId\":\"e0bd7921-1a85-4ed9-8bbe-77b9ebdbaa4f\",\"ResourceId\":\"https://graph.microsoft.com\",\"ApiVersion\":\"v1.0\",\"Mode\":1,\"Mailbox\":\"veronika.pruchova@intelstudios.com\",\"ClientSecret\":\"0Wj8Q~wnFZTCELJuzvP3jYMoDRdhnKsEOi0KyaI2\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "c06169a4-2c2b-45f2-9594-f51f051a513f",
+          "Version": "1.0.1"
+        },
+        "TemplateCopyID": null,
+        "ID": 2697,
+        "Name": "Client Secret Config",
+        "CopyID": "122d443f-9377-46ea-9912-c2ce7ce4613e"
+      },
+      {
+        "Configuration": "{\"Folder\":0,\"Emails\":0,\"Batchsize\":150,\"TransferAttachments\":true,\"IgnoreAttachmentsLinkedFromBody\":false}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "a4f2e703-c49a-486a-9ed7-e7142beb1a2d",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2698,
+        "Name": "Default",
+        "CopyID": "a3b3c041-ce32-407e-84e1-01f290bfb997"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [ { \\\"DocumentID\\\": \\\"4964008842\\\" }]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2709,
+        "Name": "Step #1",
+        "CopyID": "548ea810-f946-4753-9761-14c67c94d4b4"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n\\n  \\\"Text\\\": \\\"nejaký text 123\\\"\\n\\n}]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2714,
+        "Name": "Step #1",
+        "CopyID": "dc59661b-2769-458a-a6a9-bad6cbb56b1f"
+      },
+      {
+        "Configuration": "{\"Encoding\":\"utf-8\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "0a0ef84f-a0a1-42f1-a5ba-7c747fb70c34",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2715,
+        "Name": "Step #2",
+        "CopyID": "9e70b972-b489-4284-9e82-33f0469de95b"
+      },
+      {
+        "Configuration": "{\"Encoding\":\"utf-8\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "0a0ef84f-a0a1-42f1-a5ba-7c747fb70c34",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2716,
+        "Name": "Step #3",
+        "CopyID": "c37c2208-b50d-4734-8904-343bc79d9395"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n  \\\"BoardID\\\": \\\"4956617790\\\"\\n}]\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2719,
+        "Name": "Step #1",
+        "CopyID": "fc7397b0-cf08-405e-bf9b-3d5e8abb9065"
+      },
+      {
+        "Configuration": "{\"Statement\":\"query {\\n  boards (ids: ${input.BoardID}) {\\n    name\\n    state\\n    id\\n    board_kind\\n    permissions\\n    items {\\n      id\\n      name\\n    }\\n  }\\n}\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "77ce0378-96dc-4d38-ad9d-428f60c95288",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2720,
+        "Name": "Step #2",
+        "CopyID": "3543d8f1-d448-4c23-9557-12aa9add72be"
+      },
+      {
+        "Configuration": "{\"ApplicationToken\":\"abxfa3yqqg96h5g6petfx7aebwwahc\",\"UserGroupKey\":\"uxwz4mks911a7mvigz3ds1s9x2igny\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "80a539dc-1b26-4382-a7d2-10796341a86e",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 2732,
+        "Name": "Pushover",
+        "CopyID": "4a650236-ba4a-4cc8-9750-1019a85e2087"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [\\n  {\\n\\\"Message\\\": \\\"jeden prsten vládne všem, jeden jim všem káže\\\",\\n\\\"Priority\\\": 0,\\n}\\n];\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 2733,
+        "Name": "Pushover",
+        "CopyID": "f137eb2b-5c3c-4d0b-8937-19a59ce66c03"
+      }
+    ],
+    "Variables": [],
+    "EntityComments": [],
+    "VariableGroups": [],
+    "Templates": null,
+    "Tags": [],
+    "TagMappings": []
+  }
+}
