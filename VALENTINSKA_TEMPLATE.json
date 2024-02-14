@@ -3,7 +3,7 @@
     "Name": "VALENTINSKA TEMPLATE",
     "ShortDescription": "kratka",
     "Description": "dlouha",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Icon": null,
     "TransferVersion": 3,
     "TemplateVersion": 1,
@@ -67,7 +67,7 @@
           }
         ],
         "ID": 3458,
-        "Name": "Čekačka",
+        "Name": "Čekačka ZMĚNA",
         "CopyID": "019b8a89-ed25-4003-acd9-24d6f3732f7c"
       },
       {
