@@ -1,0 +1,970 @@
+{
+  "Content": {
+    "Name": "VALENTINSKA TEMPLATE",
+    "ShortDescription": "kratka",
+    "Description": "dlouha",
+    "Version": "1.0.0",
+    "Icon": null,
+    "TransferVersion": 3,
+    "TemplateVersion": 1,
+    "Created": "2024-02-14T06:21:21.1103348Z",
+    "Detachable": true,
+    "Viewable": true,
+    "RegenerateEndpointTokens": false,
+    "Changelog": "# 1.0.0\n- Initial version",
+    "Tasks": [
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "a1865bf9-504c-43c7-89d5-b9a940432d44",
+              "Version": "3.0.3"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": null,
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "037acb39-1d57-409d-854b-991b4d997c6a",
+                "ConfigurationSchema": {
+                  "Guid": "bf088f0f-0da3-46f8-8a94-cdca6e127841",
+                  "Version": "1.0.0"
+                },
+                "ID": 16412,
+                "Name": null,
+                "CopyID": "6210a83e-7cfa-4a66-9cd1-99e6a8ebb5b5"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13196,
+            "Name": "Step #1",
+            "CopyID": "eee52fb7-f09f-40f1-8ac7-dc005cfb6c1c"
+          }
+        ],
+        "ID": 3458,
+        "Name": "Čekačka",
+        "CopyID": "019b8a89-ed25-4003-acd9-24d6f3732f7c"
+      },
+      {
+        "Description": null,
+        "Type": 2,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "0aba297c-f721-4755-89a6-874bf955ef6f",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16408,
+                "Name": null,
+                "CopyID": "5343a892-ac1d-4763-82f5-d05bb4048919"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13192,
+            "Name": "Step #1",
+            "CopyID": "29e62158-8835-40d2-acde-e2f02c676315"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "Text": "Step #1.Text"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "29e62158-8835-40d2-acde-e2f02c676315",
+            "InputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "fa75a717-4109-4385-8b5b-32cf33115390",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16409,
+                "Name": null,
+                "CopyID": "e9b5e63b-e93f-499f-9de7-4769321df2d2"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13193,
+            "Name": "Step #2",
+            "CopyID": "eed04664-c1f7-43ce-8dbf-50cae3465591"
+          }
+        ],
+        "ID": 3456,
+        "Name": "Prsten",
+        "CopyID": "983f574d-dab4-4ddd-9992-cdd69d29d057"
+      },
+      {
+        "Description": null,
+        "Type": 2,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": false,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "0aba297c-f721-4755-89a6-874bf955ef6f",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16410,
+                "Name": null,
+                "CopyID": "47e95550-6da6-4b1e-8adf-92971e4eaf75"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13194,
+            "Name": "Step #1",
+            "CopyID": "22eec733-cd47-4d80-af26-65880853f842"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "Text": "Step #1.Text"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "22eec733-cd47-4d80-af26-65880853f842",
+            "InputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "OutputSchema": {
+              "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+              "Version": "1.0.0"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "fa75a717-4109-4385-8b5b-32cf33115390",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16411,
+                "Name": null,
+                "CopyID": "ee7195c5-9646-4894-b1c1-65c5f17a311d"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13195,
+            "Name": "Step #2",
+            "CopyID": "5307a2ab-feb6-4f97-bc78-fc3c53313dc3"
+          }
+        ],
+        "ID": 3457,
+        "Name": "Prsten copy",
+        "CopyID": "c818904e-9cee-4116-91f4-734e0474d585"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": null,
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "ffbc588e-e25f-4d14-ab88-93c421b8e9bc",
+              "Version": "4.2.7"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "Guid": "f7cb5a42-c936-42d3-bd9e-6065a71cd5b5",
+              "Version": "1.0.1"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "d896ee46-11ce-4f5f-8dd5-bc0e36c51a3b",
+                "ConfigurationSchema": {
+                  "Guid": "239b10a7-ed53-4768-bb1a-a33bea808e1a",
+                  "Version": "1.0.2"
+                },
+                "ID": 16405,
+                "Name": null,
+                "CopyID": "5e5977eb-db9b-4fd7-918f-310d13098d72"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13189,
+            "Name": "Step #1",
+            "CopyID": "d8595b85-a6c2-48e3-b0ca-c3a2aec3a00a"
+          }
+        ],
+        "ID": 3454,
+        "Name": "Spouští čekačku",
+        "CopyID": "9b30f6f9-db3c-43da-8346-94f97d52a8d8"
+      },
+      {
+        "Description": null,
+        "Type": 1,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": "9d9b4d81-3d5f-4ee4-adcf-097775a0693f",
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": "8a1bf159-741b-4a8d-b90f-f782fc0bb0c5",
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "9e22c4f7-9b2c-4166-9132-ee09bdd2784b",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16413,
+                "Name": null,
+                "CopyID": "fa64b88c-dd3d-44a1-be01-95f4b4e7f9d0"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13197,
+            "Name": "Step #1",
+            "CopyID": "992ba451-2f30-405b-a8b3-b68bb1f9c7ee"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "mesto": "Step #1.mesto",
+              "jmeno": "Step #1.jmeno",
+              "zvire": "Step #1.zvire",
+              "vec": "Step #1.vec",
+              "rostlina": "Step #1.rostlina",
+              "datum": "Step #1.datum"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": "8a1bf159-741b-4a8d-b90f-f782fc0bb0c5",
+            "PrevStepCopyID": "992ba451-2f30-405b-a8b3-b68bb1f9c7ee",
+            "InputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "OutputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "a3535ab9-c289-4b73-8179-a2e7249d7421",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16414,
+                "Name": null,
+                "CopyID": "4f89e34a-211c-4109-acf1-44813f86ee00"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13198,
+            "Name": "druhy step",
+            "CopyID": "31dbb2c9-b091-45ba-a0b6-bb0230231f27"
+          }
+        ],
+        "ID": 3459,
+        "Name": "AGENT",
+        "CopyID": "7c131c5f-63fc-4f4d-9446-3df76fec735e"
+      },
+      {
+        "Description": null,
+        "Type": 2,
+        "Cron": "0 0 * ? * * *",
+        "Priority": 99,
+        "DisposeData": false,
+        "IsRunnable": true,
+        "MaxInstances": 1,
+        "TaskRunSuccessDays": null,
+        "TaskRunFailedDays": null,
+        "TimeSchedule": null,
+        "TaskGroupCopyID": "9d9b4d81-3d5f-4ee4-adcf-097775a0693f",
+        "TemplateCopyID": null,
+        "Steps": [
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": null,
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": null,
+            "InputSchema": null,
+            "OutputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "ff605e27-64a5-49be-91ac-94c632233cda",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16415,
+                "Name": null,
+                "CopyID": "892e2e37-eb57-4592-968c-3fbfdf0b06db"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13199,
+            "Name": "Step #1",
+            "CopyID": "c45125f5-3500-4296-bc96-3230e92b66bb"
+          },
+          {
+            "Timeout": 60,
+            "InputProcessType": 2,
+            "InputProcessThreads": null,
+            "StopIfEmptyOutput": true,
+            "ConnectorStorageSize": 10,
+            "DataSnapshotCondition": 2,
+            "InputSchemaMapping": {
+              "mesto": "Step #1.mesto",
+              "jmeno": "Step #1.jmeno",
+              "zvire": "Step #1.zvire",
+              "vec": "Step #1.vec",
+              "rostlina": "Step #1.rostlina",
+              "datum": "Step #1.datum"
+            },
+            "ErrorBehavior": 1,
+            "InputDataFilter": null,
+            "IsTempDeactivated": false,
+            "Attempts": 1,
+            "AttemptsDelay": 5,
+            "Connector": {
+              "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+              "Version": "3.2.4"
+            },
+            "AgentCopyID": null,
+            "PrevStepCopyID": "c45125f5-3500-4296-bc96-3230e92b66bb",
+            "InputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "OutputSchema": {
+              "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+            },
+            "Configurations": [
+              {
+                "ConfigurationCopyID": "a3535ab9-c289-4b73-8179-a2e7249d7421",
+                "ConfigurationSchema": {
+                  "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+                  "Version": "1.0.5"
+                },
+                "ID": 16416,
+                "Name": null,
+                "CopyID": "1e83b9c7-3f4c-418e-abae-d1f191aee764"
+              }
+            ],
+            "AdditionalInputs": null,
+            "ID": 13200,
+            "Name": "druhy step",
+            "CopyID": "2ea2ef51-b566-4d8f-bea7-41c4f891abb4"
+          }
+        ],
+        "ID": 3460,
+        "Name": "endpoint s tokenem",
+        "CopyID": "9099c959-5376-45cd-9608-009d2e121764"
+      }
+    ],
+    "Connectors": [
+      {
+        "Name": "Integray Start Task Connector",
+        "Guid": "ffbc588e-e25f-4d14-ab88-93c421b8e9bc",
+        "Version": "4.2.7"
+      },
+      {
+        "Name": "JS Mapper",
+        "Guid": "1bea42f2-ca51-4ca7-9585-f10323a1d804",
+        "Version": "3.2.4"
+      },
+      {
+        "Name": "Delay",
+        "Guid": "a1865bf9-504c-43c7-89d5-b9a940432d44",
+        "Version": "3.0.3"
+      }
+    ],
+    "DataSchemas": [
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 2,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "Text",
+            "CopyID": "e22db5f1-567e-42b8-a671-cd5c8bd2d118"
+          }
+        ],
+        "ID": 14,
+        "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+        "Version": "1.0.0",
+        "Name": "Text",
+        "CopyID": "b6eb6943-67de-47ee-966c-f2c28d848e32"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 0,
+            "Type": 2,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "mesto",
+            "CopyID": "6bbe1480-ba8c-4a22-ba92-6506bce490b1"
+          },
+          {
+            "Order": 1,
+            "Type": 1,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "jmeno",
+            "CopyID": "0a997ebb-b8cb-4aa6-a112-fa24f071440a"
+          },
+          {
+            "Order": 2,
+            "Type": 3,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "zvire",
+            "CopyID": "85d43d10-03a6-468e-a783-07041cf3c3d9"
+          },
+          {
+            "Order": 3,
+            "Type": 4,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "vec",
+            "CopyID": "bdc890e3-5b2b-4247-b303-c789648412c7"
+          },
+          {
+            "Order": 4,
+            "Type": 8,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "rostlina",
+            "CopyID": "9f74e7cc-fa8f-4cc0-b5ef-d5bfe9db4197"
+          },
+          {
+            "Order": 5,
+            "Type": 5,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "datum",
+            "CopyID": "1db0ad48-f26a-49b4-b237-166002640495"
+          }
+        ],
+        "ID": 1926,
+        "Name": "Moje",
+        "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+      },
+      {
+        "TemplateCopyID": null,
+        "Columns": [
+          {
+            "Order": 1,
+            "Type": 1,
+            "AllowNull": false,
+            "ID": 0,
+            "Name": "TaskRunID",
+            "CopyID": "7132faac-8acd-4e67-a410-11d1e4f9f207"
+          },
+          {
+            "Order": 2,
+            "Type": 1,
+            "AllowNull": true,
+            "ID": 0,
+            "Name": "TaskRunStatus",
+            "CopyID": "15fd9b04-6168-4f16-924d-197ad05f8694"
+          }
+        ],
+        "ID": 86,
+        "Guid": "f7cb5a42-c936-42d3-bd9e-6065a71cd5b5",
+        "Version": "1.0.1",
+        "Name": "Integray Task Run Status",
+        "CopyID": "4925ba73-b1db-4b36-9f62-666a583f418b"
+      }
+    ],
+    "Agents": [
+      {
+        "LevelTrace": false,
+        "LevelDebug": false,
+        "LevelInfo": false,
+        "LevelWarning": false,
+        "LevelError": false,
+        "LevelFatal": false,
+        "SecurityName": "00000000-0000-0000-0000-000000000000",
+        "SecurityPassword": "00000000-0000-0000-0000-000000000000",
+        "ID": 91,
+        "Name": "3",
+        "CopyID": "8a1bf159-741b-4a8d-b90f-f782fc0bb0c5"
+      }
+    ],
+    "TaskGroups": [
+      {
+        "TemplateCopyID": null,
+        "ID": 346,
+        "Name": "jina grupa",
+        "CopyID": "9d9b4d81-3d5f-4ee4-adcf-097775a0693f"
+      }
+    ],
+    "EndpointGroups": [
+      {
+        "Slug": "vp",
+        "TemplateCopyID": null,
+        "ID": 104,
+        "Name": "VP",
+        "CopyID": "29540032-701d-430a-a9f2-a564bd691106"
+      },
+      {
+        "Slug": "vp-grupa",
+        "TemplateCopyID": null,
+        "ID": 105,
+        "Name": "VP grupa",
+        "CopyID": "b0d550fa-5a33-4551-a0f2-4f227d5ee59d"
+      }
+    ],
+    "Endpoints": [
+      {
+        "Slug": "token",
+        "AuthenticationType": 1,
+        "ReadToken": "o4sMYEbPRfsD04QnlTfNwri0V1oa2DDfNFbZTwf8hFeF5zPDb3qHrZqg/322EWGhPK2drTIoyEkrbZM5Uf0OB9CPgSA3baWV",
+        "WriteToken": "XE4YvJ90FVK9LLhfQeV2Dutwjw2cCh3PFuOl5HSe1dx5tTBMYx0JCM8D7b6b0gx7objBMUFA44EqAnPeTvDNSNCPgSA3baWV",
+        "DeleteToken": null,
+        "IsDelete": false,
+        "AllowedFrom": null,
+        "MaxMessageSize": null,
+        "PostInputMapping": null,
+        "PostOutputMapping": null,
+        "PostIsAsync": true,
+        "PostIsSystemResponse": true,
+        "PostIsSaveOutput": false,
+        "PostSaveInputDataCondition": 0,
+        "PostOutputType": 0,
+        "GetInputMapping": null,
+        "GetOutputMapping": "{\"mesto\":\"Step #1.druhy step.mesto\",\"jmeno\":\"Step #1.druhy step.jmeno\",\"zvire\":\"Step #1.druhy step.zvire\",\"vec\":\"Step #1.druhy step.vec\",\"rostlina\":\"Step #1.druhy step.rostlina\",\"datum\":\"Step #1.druhy step.datum\"}",
+        "GetIsSystemResponse": true,
+        "GetIsSaveOutput": false,
+        "GetSaveInputDataCondition": 0,
+        "GetOutputType": 0,
+        "EndpointDataDays": null,
+        "WaitTime": 60,
+        "EndpointGroupCopyID": "29540032-701d-430a-a9f2-a564bd691106",
+        "PostInputTaskCopyID": null,
+        "PostInputSchema": null,
+        "PostOutputSchema": null,
+        "PostOutputStepCopyID": null,
+        "GetInputTaskCopyID": "9099c959-5376-45cd-9608-009d2e121764",
+        "GetInputSchema": null,
+        "GetOutputSchema": {
+          "CopyID": "eeb7b22a-9ee9-4ca0-927c-d5d308a7a3c5"
+        },
+        "GetOutputStepCopyID": "2ea2ef51-b566-4d8f-bea7-41c4f891abb4",
+        "PostSecondaryTokens": [],
+        "GetSecondaryTokens": [
+          "d32c5bd4-6c26-4bc6-93dc-85f8f247b8ca"
+        ],
+        "DeleteSecondaryTokens": [],
+        "GetFailMessage": null,
+        "PostFailMessage": null,
+        "ExtendedInfo": null,
+        "TemplateCopyID": null,
+        "ID": 728,
+        "Name": "Token",
+        "CopyID": "295b1045-02ca-4c2c-ac8e-65856ed8d01a"
+      },
+      {
+        "Slug": "endpoint-pousti-prsten",
+        "AuthenticationType": 0,
+        "ReadToken": null,
+        "WriteToken": null,
+        "DeleteToken": null,
+        "IsDelete": false,
+        "AllowedFrom": null,
+        "MaxMessageSize": null,
+        "PostInputMapping": null,
+        "PostOutputMapping": null,
+        "PostIsAsync": true,
+        "PostIsSystemResponse": true,
+        "PostIsSaveOutput": false,
+        "PostSaveInputDataCondition": 0,
+        "PostOutputType": 0,
+        "GetInputMapping": null,
+        "GetOutputMapping": "{\"Text\":\"Step #1.Step #2.Text\"}",
+        "GetIsSystemResponse": true,
+        "GetIsSaveOutput": false,
+        "GetSaveInputDataCondition": 0,
+        "GetOutputType": 0,
+        "EndpointDataDays": null,
+        "WaitTime": 60,
+        "EndpointGroupCopyID": "b0d550fa-5a33-4551-a0f2-4f227d5ee59d",
+        "PostInputTaskCopyID": null,
+        "PostInputSchema": null,
+        "PostOutputSchema": null,
+        "PostOutputStepCopyID": null,
+        "GetInputTaskCopyID": "983f574d-dab4-4ddd-9992-cdd69d29d057",
+        "GetInputSchema": null,
+        "GetOutputSchema": {
+          "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+          "Version": "1.0.0"
+        },
+        "GetOutputStepCopyID": "eed04664-c1f7-43ce-8dbf-50cae3465591",
+        "PostSecondaryTokens": [],
+        "GetSecondaryTokens": [],
+        "DeleteSecondaryTokens": [],
+        "GetFailMessage": null,
+        "PostFailMessage": null,
+        "ExtendedInfo": null,
+        "TemplateCopyID": null,
+        "ID": 729,
+        "Name": "endpoint pousti prsten",
+        "CopyID": "4f5c4e0a-2746-4346-9f59-2f75201ea414"
+      },
+      {
+        "Slug": "endpoint-pousti-prsten-copy",
+        "AuthenticationType": 0,
+        "ReadToken": null,
+        "WriteToken": null,
+        "DeleteToken": null,
+        "IsDelete": false,
+        "AllowedFrom": null,
+        "MaxMessageSize": null,
+        "PostInputMapping": null,
+        "PostOutputMapping": null,
+        "PostIsAsync": true,
+        "PostIsSystemResponse": true,
+        "PostIsSaveOutput": false,
+        "PostSaveInputDataCondition": 0,
+        "PostOutputType": 0,
+        "GetInputMapping": null,
+        "GetOutputMapping": "{\"Text\":\"Step #1.Step #2.Text\"}",
+        "GetIsSystemResponse": true,
+        "GetIsSaveOutput": false,
+        "GetSaveInputDataCondition": 0,
+        "GetOutputType": 0,
+        "EndpointDataDays": null,
+        "WaitTime": 60,
+        "EndpointGroupCopyID": "b0d550fa-5a33-4551-a0f2-4f227d5ee59d",
+        "PostInputTaskCopyID": null,
+        "PostInputSchema": null,
+        "PostOutputSchema": null,
+        "PostOutputStepCopyID": null,
+        "GetInputTaskCopyID": "c818904e-9cee-4116-91f4-734e0474d585",
+        "GetInputSchema": null,
+        "GetOutputSchema": {
+          "Guid": "b76c3662-4903-4512-97a9-72f32eaecd01",
+          "Version": "1.0.0"
+        },
+        "GetOutputStepCopyID": "5307a2ab-feb6-4f97-bc78-fc3c53313dc3",
+        "PostSecondaryTokens": [],
+        "GetSecondaryTokens": [],
+        "DeleteSecondaryTokens": [],
+        "GetFailMessage": null,
+        "PostFailMessage": null,
+        "ExtendedInfo": null,
+        "TemplateCopyID": null,
+        "ID": 730,
+        "Name": "endpoint pousti prsten copy",
+        "CopyID": "7f522e44-0c7c-4219-8a75-ba5e60405b6e"
+      }
+    ],
+    "SecondaryTokens": [
+      {
+        "Description": "token1",
+        "Token": "dMh+ebfcqVE=",
+        "IsEnabled": true,
+        "ID": 109,
+        "Name": "token1",
+        "CopyID": "d32c5bd4-6c26-4bc6-93dc-85f8f247b8ca"
+      }
+    ],
+    "Configurations": [
+      {
+        "Configuration": "{\"Delay\":1}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "bf088f0f-0da3-46f8-8a94-cdca6e127841",
+          "Version": "1.0.0"
+        },
+        "TemplateCopyID": null,
+        "ID": 8488,
+        "Name": "Step #1",
+        "CopyID": "037acb39-1d57-409d-854b-991b4d997c6a"
+      },
+      {
+        "Configuration": "{\n  \"Execution\": \"sync\",\n  \"SameCompany\": true,\n  \"TaskCopyID\": \"019b8a89-ed25-4003-acd9-24d6f3732f7c\"\n}",
+        "IsShared": false,
+        "ConfigurationSchema": {
+          "Guid": "239b10a7-ed53-4768-bb1a-a33bea808e1a",
+          "Version": "1.0.2"
+        },
+        "TaskCopyID": "9b30f6f9-db3c-43da-8346-94f97d52a8d8",
+        "TemplateCopyID": null,
+        "ID": 8489,
+        "Name": "Step #1",
+        "CopyID": "d896ee46-11ce-4f5f-8dd5-bc0e36c51a3b"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [\\n  {\\n\\\"Text\\\": \\\"jeden prsten vládne všem, jeden jim všem káže\\\"\\n}\\n];\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 8490,
+        "Name": "Step #1",
+        "CopyID": "0aba297c-f721-4755-89a6-874bf955ef6f"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [\\n  {\\n\\\"Text\\\": \\\"jeden všechny přivede, do. temnoty sváže\\\"\\n}\\n];\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 8491,
+        "Name": "Step #1 Copy",
+        "CopyID": "fa75a717-4109-4385-8b5b-32cf33115390"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return inputData\"}",
+        "IsShared": true,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TemplateCopyID": null,
+        "ID": 8493,
+        "Name": "druhy step",
+        "CopyID": "a3535ab9-c289-4b73-8179-a2e7249d7421"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n  \\\"mesto\\\": \\\"Horní Dolní\\\",\\n  \\\"jmeno\\\": 11,\\n  \\\"zvire\\\": true,\\n  \\\"vec\\\": \\\"cGVzIGtvxI1rYSBuZWJvIHB0w6Fr\\\",\\n  \\\"rostlina\\\": {\\n    \\\"jmeno\\\": \\\"Růže\\\",\\n    \\\"rod\\\": \\\"Růže\\\",\\n    \\\"barva\\\": \\\"Červená\\\",\\n    \\\"typ\\\": \\\"Květina\\\",\\n    \\\"puzdrovani\\\": true,\\n    \\\"popis\\\": \\\"Růže je oblíbená květina kvůli své kráse a výrazné vůni. Existují různé druhy růží s různými barvami a tvary.\\\"\\n  },\\n  \\\"datum\\\": \\\"2022-01-21T22:00:00Z\\\"\\n}]\"}",
+        "IsShared": false,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TaskCopyID": "7c131c5f-63fc-4f4d-9446-3df76fec735e",
+        "TemplateCopyID": null,
+        "ID": 8494,
+        "Name": "Step #1 copy",
+        "CopyID": "9e22c4f7-9b2c-4166-9132-ee09bdd2784b"
+      },
+      {
+        "Configuration": "{\"Statement\":\"return [{\\n  \\\"mesto\\\": \\\"Horní Dolní\\\",\\n  \\\"jmeno\\\": 11,\\n  \\\"zvire\\\": true,\\n  \\\"vec\\\": \\\"cGVzIGtvxI1rYSBuZWJvIHB0w6Fr\\\",\\n  \\\"rostlina\\\": {\\n    \\\"jmeno\\\": \\\"Růže\\\",\\n    \\\"rod\\\": \\\"Růže\\\",\\n    \\\"barva\\\": \\\"Červená\\\",\\n    \\\"typ\\\": \\\"Květina\\\",\\n    \\\"puzdrovani\\\": true,\\n    \\\"popis\\\": \\\"Růže je oblíbená květina kvůli své kráse a výrazné vůni. Existují různé druhy růží s různými barvami a tvary.\\\"\\n  },\\n  \\\"datum\\\": \\\"2022-01-21T22:00:00Z\\\"\\n}]\"}",
+        "IsShared": false,
+        "ConfigurationSchema": {
+          "Guid": "ab00eb5f-e86e-4107-b8cd-b151a204c4c6",
+          "Version": "1.0.5"
+        },
+        "TaskCopyID": "9099c959-5376-45cd-9608-009d2e121764",
+        "TemplateCopyID": null,
+        "ID": 8495,
+        "Name": "Step #1 copy",
+        "CopyID": "ff605e27-64a5-49be-91ac-94c632233cda"
+      }
+    ],
+    "Variables": [],
+    "EntityComments": [],
+    "VariableGroups": [],
+    "Templates": null,
+    "Tags": [],
+    "TagMappings": []
+  }
+}
