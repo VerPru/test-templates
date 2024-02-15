@@ -2,8 +2,16 @@
   "Content": {
     "Name": "Automate User Creation in HubSpot",
     "ShortDescription": "This template simplifies the addition of new users to HubSpot, automating the process to ensure quick and accurate onboarding.",
-    "Description": "tvuj markdown smrdi adame",
-    "Version": "1.0.3",
+    "Description": "# Automate User Creation in HubSpot
+ 
+The "Automate User Creation in HubSpot" template simplifies the process of adding new users to your HubSpot account, offering a seamless solution for efficiently managing user access and roles. Ideal for businesses looking to streamline their CRM operations, this template reduces manual effort and enhances productivity by automating user onboarding.
+ 
+## Key Features:
+ 
+- **Automated Onboarding**: Quickly add new users to your HubSpot account without manual data entry.
+- **Customizable Access Levels**: Easily assign roles and permissions to ensure users have the appropriate access.
+- **Scalability**: Effortlessly manage user additions as your business grows, maintaining control and organization.",
+    "Version": "1.0.4",
     "Icon": null,
     "TransferVersion": 3,
     "TemplateVersion": 1,
